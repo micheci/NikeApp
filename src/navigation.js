@@ -2,7 +2,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
 
 import ProductsScreen from './screens/ProductsScreen';
-import ProductDetailsScreen from './screens/ProductsDetailsScreen';
+import ProductDetailsScreen from './screens/ProductDetailsScreen';
 import ShoppingCart from './screens/ShoppingCart';
 
 import {FontAwesome5} from '@expo/vector-icons'
