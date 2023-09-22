@@ -14,7 +14,7 @@ const CartListItem = ({ cartItem }) => {
     dispatch(cartSlice.actions.changeQuantity({productId:cartItem.product.id,amount:-1}))
 
   };
-
+//coment for push
   return (
     <View style={styles.container}>
       <Image source={{ uri: cartItem.product.image }} style={styles.image} />
